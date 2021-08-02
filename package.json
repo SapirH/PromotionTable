@@ -1,0 +1,20 @@
+{
+  "name": "moon-active",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install_client": "cd client && npm install",
+    "install_server": "cd server && npm install",
+    "install_all": "run-p install_client install_server",
+    "start_client": "cd client && npm run start",
+    "start_server": "cd server && npm run start",
+    "start_all": "run-p start_server start_client"
+  },
+  "author": "Sapir Holzman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "npm-run-all": "^4.1.5"
+  }
+}
